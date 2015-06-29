@@ -40,7 +40,7 @@
         <div class="container">
             <div class="navbar-header">
                  <h1 class="logo-storm"></h1>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#MenuResp" aria-expanded="true" aria-controls="MenuResp">
                 <span class="sr-only">-</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -48,13 +48,13 @@
                 </button>               
             </div>
             
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="MenuResp" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#conheca">CONHEÇA A STORM</a></li>
+                    <li><a href="#conheca" data-scroll-nav="0">CONHEÇA A STORM</a></li>
                     <li><a href="#portfolio">PORTFÓLIO</a></li>                            
                     <li><a href="#produtos">PRODUTOS</a></li>
-                    <li><a href="#clipping">CLIPPING</a></li>
-                    <li><a href="#contato">FAÇA CONTATO</a></li>
+                    <li><a href="#clipping" data-scroll-nav="1">CLIPPING</a></li>
+                    <li><a href="#contato" data-scroll-nav="2">FAÇA CONTATO</a></li>
                 </ul>
             </div>
         </div>
@@ -63,7 +63,7 @@
 
 
     <!--=== INÍCIO VITRINE === -->
-    <section id="Vitrine" class="carousel slide" data-ride="carousel">
+    <section id="Vitrine" class="carousel slide" data-ride="carousel" data-scroll-index="0">
     	<div class="container">
           <div class="carousel-inner" role="listbox">
             <div class="item active"><img class="first-slide" src="images/vitrine/01.png" alt="First slide"></div>
@@ -84,14 +84,36 @@
     <!--=== FIM VITRINE ===-->
 
 	<!--=== INÍCIO CLIPPING === -->
-    <section id="Clipping">
-    	CLIPPING
+    <section id="Clipping" data-scroll-index="1">
+    	<div class="container">
+        	<article>
+            	<header> 
+    	        	<h1>PEQUENAS EMPRESAS GRANDES NEGÓCIOS</h1>
+	                <p>Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar fazendas e gerenciar o trânsito.</p>
+                </header>
+                <figure>
+	                <img src="images/clipping/pequenas-empresas.jpg" alt="Vant">
+    		        <figcaption>VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio</figcaption>             
+                </figure>
+                <p>O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. "É bom que a gente já vê se o aviãozinho se garante em qualquer clima", diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.</p>
+				<p>Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo .</p>                    
+            </article>
+            <nav>
+            	<ul>
+                	<li>O GLOBO BLOGS - INOVAÇÃO</li>
+					<li>PEQUENAS EMPRESAS GRANDES NEGÓCIOS</li>
+					<li>REVISTA GALILEU</li>
+                </ul>
+            </nav>
+        </div>
     </section>
     <!--=== FIM CLIPPING ===-->
     
     <!--=== INÍCIO CONTATO === -->
-    <section id="Contato">
+    <section id="Contato" data-scroll-index="2">
+    	<div class="container">
     	CONTATO
+        </div>
     </section>
     <!--=== FIM CONTATO ===-->
 
@@ -111,6 +133,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.js" type="text/javascript"></script>
+     <script src="js/menu.js" type="text/javascript"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line!
     <script src="js/vendor/holder.min.js"></script> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 

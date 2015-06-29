@@ -1,7 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+    font-family: AGaramondPro-Regular;
+    src: url(../fonts/AGaramondPro-Regular.otf);
+} 
+
+
 body{
 	background-image:url(../images/backgrounds/bg-site.png);
+}
+
+.container{
+	max-width:986px;	
+}
+
+section{
+	color:#e4f2fd;
+	font-family:AGaramondPro-Regular;
 }
 
 /* TOPO */
@@ -78,9 +93,6 @@ nav > .container{
 	background:url(../images/backgrounds/bg-vitrine.png) no-repeat scroll center 61px;	
 }
 
-#Vitrine > .container{
-	max-width:986px;	
-}
 
 .carousel-inner{
 	margin-top:16px;
@@ -89,7 +101,26 @@ nav > .container{
 /* CLIPPING */
 #Clipping{
 	background-image:url(../images/backgrounds/bg-clipping.png);
-	min-height:300px;
+	min-height:400px;
+	padding-top:120px;
+}
+
+#Clipping article{
+	width:590px;
+	float:left;
+	border:1px solid #0F0;
+	padding-left:8px;
+}
+
+#Clipping article h1{
+	font-size:17px;
+	color:#e4f2fd;
+}
+
+#Clipping nav{
+	width:366px;
+	float:left;	
+	border:1px solid #0FFFF0;
 }
 
 
