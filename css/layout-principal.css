@@ -8,6 +8,7 @@
 
 body{
 	background-image:url(../images/backgrounds/bg-site.png);
+	font-family:AGaramondPro-Regular;
 }
 
 .container{
@@ -15,9 +16,13 @@ body{
 }
 
 section{
-	color:#e4f2fd;
-	font-family:AGaramondPro-Regular;
+	color:#e4f2fd;	
 }
+
+.barra{
+	position:absolute;
+}
+
 
 /* TOPO */
 .logo-storm{
@@ -30,7 +35,7 @@ section{
 	margin-right:81px;
 }
 
-nav{
+nav.navbar{
 	font-family: "Trebuchet MS";
 	font-size:14px;
 	color:#cecece;
@@ -107,22 +112,105 @@ nav > .container{
 
 #Clipping article{
 	width:590px;
-	float:left;
-	border:1px solid #0F0;
+	float:left;	
 	padding-left:8px;
+}
+
+#Clipping article figure{
+	position:relative;
+	margin-bottom:23px;
+}
+#Clipping article figure figcaption{
+	font-size:10px;
+}
+
+#Clipping article figure img{
+	border:1px solid #253646;
+}
+
+#Clipping article figure .HrTop{
+	background-color:#1979bc;
+	width:396px;
+	height:3px;
+}
+#Clipping article figure .VtTop{
+	background-color:#4b87c0;
+	width:6px;
+	height:30px;
+	top: -6px;
+	right:0px;
+}
+#Clipping article figure .VtBottom{
+	background-color:#1979bc;
+	width:3px;
+	height:270px;
+	top:73px;
+	right:1px;
 }
 
 #Clipping article h1{
 	font-size:17px;
+	text-transform: uppercase;
 	color:#e4f2fd;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+#Clipping article div{
+	width:461px;
+	float:left;
+}
+
+#Clipping article aside{
+	width: 84px;
+	float:left;
+	border:1px solid #153c57;
+	background-color:#1b2732;
+	margin-left:20px;
+	padding: 17px 0px;
+	text-align:center;
+	margin-top:80px;	
 }
 
 #Clipping nav{
 	width:366px;
 	float:left;	
-	border:1px solid #0FFFF0;
+	position:relative;
+	font-size:13px;
+	text-transform: uppercase;
 }
 
+#Clipping nav .HrTop{
+	background-color:#1979bc;
+	width:174px;
+	height:4px;
+	top: 31px;
+}
+#Clipping nav .VtTop{
+	background-color:#1979bc;
+	width:5px;
+	height:174px;	
+	left:12px;
+}
+
+#Clipping nav ul{
+	margin-left: 37px;
+	margin-top: 63px;
+	padding:0px;
+}
+#Clipping nav ul li{
+	list-style:none;
+	margin:0px;
+	padding-bottom:21px;
+}
+
+#Clipping nav ul li a{
+	color:#fefefe;
+	text-decoration:none;
+}
+#Clipping nav ul li a:hover{
+	color:#fff001;
+}
 
 /* CONTATO */
 #Contato{
