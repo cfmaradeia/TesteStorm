@@ -108,12 +108,21 @@ nav > .container{
 	background-image:url(../images/backgrounds/bg-clipping.png);
 	min-height:400px;
 	padding-top:120px;
+	padding-bottom:40px;
 }
 
 #Clipping article{
 	width:590px;
 	float:left;	
 	padding-left:8px;
+}
+
+#Clipping article select{
+	display:none;
+	width:100%;
+	margin-bottom:17px;
+	color: #244563;
+	padding:5px 2px;
 }
 
 #Clipping article figure{
@@ -172,6 +181,42 @@ nav > .container{
 	margin-top:80px;	
 }
 
+#Clipping article aside img{
+	margin-bottom:12px;
+}
+
+#Clipping article aside button{
+	width:37px;
+	height:37px;
+	background-color:#1979bc;
+	border:none;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;	
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+#Clipping article aside button span{
+	width:8px;
+	padding:4px 9px;
+	height:19px;	
+}
+#Clipping article aside button .proximo{
+	background:url(../images/botoes/proximo.png) no-repeat center;		
+}
+#Clipping article aside button .anterior{
+	background:url(../images/botoes/anterior.png) no-repeat center;		
+}
+
+#Clipping article aside .Hr{
+	background-color:#274c6c;
+	width:62px;
+	height:1px;
+	margin-left:11px;
+	margin-bottom:1px;
+}
+
+
 #Clipping nav{
 	width:366px;
 	float:left;	
@@ -216,6 +261,83 @@ nav > .container{
 #Contato{
 	background-image:url(../images/backgrounds/bg-contato.png);
 	min-height:300px;
+	padding-top:107px;
+	padding-bottom:140px;
 }
+
+#Contato header{
+	width:660px;
+	margin:0px 163px 70px 163px;
+	text-align:center;
+	position:relative;
+	font-size:22px;
+}
+
+#Contato header .HrTop{
+	background-color:#1979bc;
+	width:82px;
+	height:2px;
+	top:-12px;
+	left:7px;
+}
+
+#Contato header .HrBot{
+	background-color:#1979bc;
+	width:82px;
+	height:2px;
+	top:60px;
+	right:7px;
+}
+
+#Contato header .VtBot{
+	background-color:#1979bc;
+	width:4px;
+	height:88px;
+	top:6px;
+	right:19px;
+}
+
+#Contato form{
+	float:left;
+	width:460px;	
+	padding:0px 23px 0px 35px;
+	margin-right:20px;
+	-webkit-box-shadow: 8px 0 15px 1px #213e5a;
+	box-shadow: 8px 0 15px 1px #213e5a;
+}
+#Contato form input,#Contato form textarea{
+	background-color:#e4f2fd;
+	color:#171717;
+}
+
+
+::-webkit-input-placeholder{
+   color:#171717;
+}
+
+:-moz-placeholder {
+	color:#171717;
+}
+
+::-moz-placeholder {
+	color:#171717;
+}
+
+:-ms-input-placeholder {  
+	color:#171717;
+}
+
+#Contato address{
+	float:left;
+	width:400px;
+	min-height:400px;
+}
+
+#Contato address p{
+	font-size:16px;
+	margin-bottom:40px;
+}
+
+
 
 

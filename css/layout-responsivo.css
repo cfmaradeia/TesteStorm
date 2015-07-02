@@ -41,6 +41,25 @@
 		left:300px;
 		background-color:rgba(24,24,24,0.9);
 	}
+	
+	#Clipping{
+		width:100%;
+		padding-top:60px;
+	}
+	
+	#Clipping article, #Clipping article div, #Clipping article figure img{
+		width:100%;
+	}	
+	
+	#Clipping article select{
+		display:inline;
+	}
+		
+	.barra,	#Clipping article aside, #Clipping nav, #Clipping article header{
+		display:none;
+	}
+	
+
 }
 
 
