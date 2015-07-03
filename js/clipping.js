@@ -28,8 +28,7 @@ $(function() {
 			$('#comboClipping').append('<option value="'+i+'">'+json.clipping[i].titulo+'</option>');
 		}
 		
-	});
-	
+	});	
 	
 	$('#MenuClipping').on('click','.linkMenuClippging', function() {
 		$('.linkMenuClippging').removeClass('active');
@@ -47,18 +46,16 @@ $(function() {
 		if((Atual+1) < qt){
 			Atual++;
 			setClipping();
-		}
-		
-		console.log(Atual);
+		}		
 	});
 	
 	$('.trocaAnterior').click(function() {
 		if((Atual-1) >= 0){
 			Atual--;
 			setClipping();
-		}
-				console.log(Atual);
+		}		
 	});
+	
 });
 
 
