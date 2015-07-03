@@ -45,6 +45,7 @@
 	#Clipping{
 		width:100%;
 		padding-top:60px;
+		padding-bottom:22px;
 	}
 	
 	#Clipping article, #Clipping article div, #Clipping article figure img{
@@ -55,10 +56,9 @@
 		display:inline;
 	}
 		
-	.barra,	#Clipping article aside, #Clipping nav, #Clipping article header{
+	.barra,	#Clipping article aside, #Clipping nav, #Clipping article header, #Contato{
 		display:none;
-	}
-	
+	}	
 
 }
 

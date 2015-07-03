@@ -181,6 +181,11 @@ nav > .container{
 	margin-top:80px;	
 }
 
+#Clipping article aside a, #Clipping article aside a:hover{
+	color:#e4f2fd;
+	text-decoration:none;
+}
+
 #Clipping article aside img{
 	margin-bottom:12px;
 }
@@ -253,7 +258,7 @@ nav > .container{
 	color:#fefefe;
 	text-decoration:none;
 }
-#Clipping nav ul li a:hover{
+#Clipping nav ul li a:hover, #Clipping nav ul li a.active{
 	color:#fff001;
 }
 
@@ -310,6 +315,14 @@ nav > .container{
 	color:#171717;
 }
 
+#Contato form button.btn-default{
+	background-color:#1979bc;
+	font-size:13px;
+	text-transform:uppercase;
+	color:#fffffe;
+	border:none;
+	float: right;
+}
 
 ::-webkit-input-placeholder{
    color:#171717;

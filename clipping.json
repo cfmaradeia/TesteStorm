@@ -1,0 +1,20 @@
+{
+	"clipping":[
+		{
+		"id": "1", 
+		"titulo": "PEQUENAS EMPRESAS GRANDES NEGÓCIOS", 
+		"subtitulo":"Ex-hacker brasileiro projeta miniaviões para encontrar carros roubados, vigiar fazendas e gerenciar o trânsito.", 
+		"img":"images/clipping/pequenas-empresas.jpg", 
+		"legenda":"VIGIA AÉREO: O modelo Vant, criado por Abreu Júnior, é versão compacta dos usados no Oriente Médio", 
+		"texto":"<p>O tempo não decide entre ensolarado, nublado e chuvoso na Ilha de Guaratiba — bairro do Rio de Janeiro a 45 km do centro. 'É bom que a gente já vê se o aviãozinho se garante em qualquer clima', diz o engenheiro Wanderley Abreu Júnior. É o primeiro teste oficial do seu Veículo Aéreo Não Tripulado (doravante, Vant). Quem olha não dá nada. O aeromodelo mede 1,60 m da ponta de uma asa à da outra e pesa 750 g, mas tem versões maiores — de 3,5 kg e de 20 kg. O design também não é o forte, mas isso não parece preocupar Abreu Júnior. Seu negócio não é fabricar as aeronaves, mas o sistema de câmeras e sensores infravermelhos que as transforma em robôs de vigilância e monitoramento de tráfego.</p><p>Os Vants desenvolvidos pelo brasileiro são bem diferentes daqueles que ficaram conhecidos por custarem milhões de dólares e participarem de ações militares como a Guerra do Afeganistão e a captura de Bin Laden. Fazem parte de uma nova leva de veículos mais baratos, com menos recursos e projetados para o uso civil. Abreu Júnior não está só. A polícia da Austrália já recomendou ao governo .</p>"
+		},
+		{
+		"id": "2", 
+		"titulo": "O GLOBO BLOGS - INOVAÇÃO", 
+		"subtitulo":"Sed consectetur leo neque, a rhoncus neque consectetur nec. In ut lacus gravida, fringilla enim ut, aliquam lacus.", 
+		"img":"images/clipping/pequenas-empresas2.jpg", 
+		"legenda":"Fusce ac fringilla est. Morbi scelerisque ante id lectus tincidunt commodo.", 
+		"texto":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante nisl, interdum ac nulla ut, vehicula imperdiet nibh. Fusce ac fringilla est. Morbi scelerisque ante id lectus tincidunt commodo. Duis posuere nisi ac nunc bibendum, ac malesuada augue tristique. Etiam nec sapien id diam efficitur pretium et vitae augue. Praesent tempor cursus libero id cursus. Etiam mollis fringilla fermentum. Etiam sed nulla sed ex egestas volutpat. Proin maximus elit ligula, non molestie justo egestas eu. Aliquam eleifend pharetra ultricies. Nullam vitae orci non massa fringilla commodo. Donec varius elit vel enim vestibulum, ut fermentum massa convallis. Maecenas diam enim, suscipit id lacinia eu, congue eu erat. Vestibulum fermentum tristique nisl, eu posuere quam congue eleifend.</p><p>Curabitur sed lorem nisl. Pellentesque gravida nisl ex. Fusce quis posuere ex, non egestas massa. Quisque tincidunt a sapien in lacinia. Vivamus scelerisque odio non lorem sagittis, eu convallis libero iaculis. Pellentesque bibendum vulputate rhoncus. Ut eleifend et erat id semper. Phasellus aliquam dui sed nisl malesuada bibendum at tincidunt dolor. Sed consectetur leo neque, a rhoncus neque consectetur nec. In ut lacus gravida, fringilla enim ut, aliquam lacus. Proin id pulvinar justo, ac tempus tellus. Aliquam dictum fringilla fermentum. Phasellus non massa leo. </p>"
+		}
+	]
+}
